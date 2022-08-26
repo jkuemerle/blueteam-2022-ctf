@@ -1,0 +1,17 @@
+- name: Session Challenge 1
+  description: >-
+    Session challenge #1
+  max_attempts: 0
+  value: 15
+  category: Session
+  type: standard
+  state: visible
+  flags:
+    - type: static
+      content: foo
+      data: null
+  hints:
+    - type: standard
+      content: >-
+        See the challenge text. 
+      cost: 45

@@ -1,0 +1,17 @@
+- name: Integrated Challenge 1
+  description: >-
+    This is a sample integrated challenge. The flag is `foo`
+  max_attempts: 0
+  value: 15
+  category: Integrated
+  type: integrated
+  state: visible
+  flags:
+    - type: static
+      content: foo
+      data: null
+  hints:
+    - type: standard
+      content: >-
+        See the challenge text. 
+      cost: 45
